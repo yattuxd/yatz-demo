@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b16">
+  <title>NEXUS FLOW — AI Workflow Automation Platform | Concept Work</title>
+  <meta name="description" content="バラバラな業務を、ひとつの流れへ。Human Approvalを残しながら業務をつなぐ、架空のAI業務自動化SaaSのコンセプトサイト。">
+  <meta property="og:title" content="NEXUS FLOW — AI Workflow Automation Platform">
+  <meta property="og:description" content="Webそのものがワークフローになる、YATZ STUDIOの自主制作コンセプト。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://demo.yatzstudio.jp/nexus-flow/">
+  <meta property="og:image" content="https://demo.yatzstudio.jp/nexus-flow/assets/og-card.png">
+  <meta property="og:image:alt" content="NEXUS FLOWのワークフロー図とコンセプトタイトル">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <link rel="canonical" href="https://demo.yatzstudio.jp/nexus-flow/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <div class="cursor-light" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="NEXUS FLOW トップへ">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span>NEXUS <b>FLOW</b></span>
+    </a>
+    <nav class="desktop-nav" aria-label="メインナビゲーション">
+      <a href="#automation">Automation</a><a href="#use-cases">Use Cases</a><a href="#security">Human Approval</a>
+    </nav>
+    <a class="header-cta" href="#contact">Explore the flow <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="section-tag"><span>Portfolio 03</span> Concept Work / 自主制作</p>
+        <h1 id="hero-title">バラバラな業務を、<br><em>ひとつの流れへ。</em></h1>
+        <p class="hero-lead">人、AI、ツール、承認。点在する仕事を、判断できるひとつのワークフローに。速さとコントロールを両立する、架空の業務自動化プラットフォーム。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#automation">フローを見る <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#security">Human in the loop <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="workflow-stage reveal" aria-label="入力から結果までをつなぐワークフロー図">
+        <div class="stage-chrome" aria-hidden="true"><span></span><span>NEXUS / LIVE FLOW</span><span>01—05</span></div>
+        <div class="hero-flow" data-hero-flow>
+          <div class="flow-line line-1" aria-hidden="true"><i></i></div>
+          <div class="flow-line line-2" aria-hidden="true"><i></i></div>
+          <div class="flow-line line-3" aria-hidden="true"><i></i></div>
+          <div class="flow-line line-4" aria-hidden="true"><i></i></div>
+          <article class="flow-node node-input" data-flow-node="0"><span class="node-index">01</span><i class="node-icon">↙</i><strong>Input</strong><small>Mail / Form</small></article>
+          <article class="flow-node node-ai" data-flow-node="1"><span class="node-index">02</span><i class="node-icon">✦</i><strong>AI</strong><small>Classify</small></article>
+          <article class="flow-node node-approval approval" data-flow-node="2"><span class="node-index">03</span><i class="node-icon">✓</i><strong>Approval</strong><small>Human check</small></article>
+          <article class="flow-node node-apps" data-flow-node="3"><span class="node-index">04</span><i class="node-icon">⌘</i><strong>Apps</strong><small>CRM / Chat</small></article>
+          <article class="flow-node node-result" data-flow-node="4"><span class="node-index">05</span><i class="node-icon">↗</i><strong>Result</strong><small>Done</small></article>
+        </div>
+        <div class="flow-status"><span><i></i> Workflow active</span><span>Human control enabled</span></div>
+      </div>
+      <div class="scroll-note" aria-hidden="true"><span></span> Scroll to assemble</div>
+    </section>
+
+    <section class="problem section" id="problem" aria-labelledby="problem-title">
+      <div class="section-heading reveal">
+        <p class="section-tag"><span>01</span> The problem</p>
+        <h2 id="problem-title">ツールは増えた。<br>でも、仕事はまだ<span>人がつないでいる。</span></h2>
+      </div>
+      <div class="problem-layout">
+        <div class="broken-flow reveal" aria-label="分断された手作業の流れ">
+          <div class="broken-item"><i>01</i><span>問い合わせ</span><b>受信箱</b></div>
+          <div class="broken-gap"><span>Copy</span><span>Paste</span></div>
+          <div class="broken-item"><i>02</i><span>内容を確認</span><b>人の判断</b></div>
+          <div class="broken-gap"><span>Wait</span><span>Assign</span></div>
+          <div class="broken-item"><i>03</i><span>転記・共有</span><b>3つのツール</b></div>
+        </div>
+        <div class="problem-copy reveal">
+          <p class="large-copy">メールを開き、内容を読み、担当を探し、確認を待ち、別のシステムへ転記する。</p>
+          <p>個別のツールは優秀でも、間をつなぐのは人のまま。NEXUS FLOWは、この「見えない手作業」を可視化します。</p>
+          <dl class="friction-list"><div><dt>12h</dt><dd>週あたりの反復作業</dd></div><div><dt>6</dt><dd>行き来する業務ツール</dd></div><div><dt>14</dt><dd>判断待ちの平均件数</dd></div></dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="automation section" id="automation" aria-labelledby="automation-title">
+      <div class="section-heading centered reveal">
+        <p class="section-tag"><span>02</span> Automation</p>
+        <h2 id="automation-title">散らばった仕事が、<br><span>一本のフローになる。</span></h2>
+        <p>問い合わせから記録まで。必要な判断だけを人に残し、あとは流れが進めます。</p>
+      </div>
+      <div class="assembly" data-assembly>
+        <div class="assembly-spine" aria-hidden="true"><i></i></div>
+        <article class="assembly-step reveal" data-step><span class="step-number">01</span><div class="step-icon">↘</div><div><p>Receive</p><h3>問い合わせを受信</h3><span>メール・フォーム・チャットをひとつの入口へ。</span></div><b>Trigger</b></article>
+        <article class="assembly-step reveal" data-step><span class="step-number">02</span><div class="step-icon">✦</div><div><p>Understand</p><h3>AIが内容を分類</h3><span>要件、緊急度、顧客情報を読み取り構造化。</span></div><b>AI Process</b></article>
+        <article class="assembly-step reveal approval-step" data-step><span class="step-number">03</span><div class="step-icon">✓</div><div><p>Control</p><h3>人が判断する</h3><span>金額・例外・重要顧客だけを、担当者へ確認。</span></div><b>Human Approval</b></article>
+        <article class="assembly-step reveal" data-step><span class="step-number">04</span><div class="step-icon">⌘</div><div><p>Connect</p><h3>担当・ツールへ連携</h3><span>承認後、返信・通知・CRM更新を同時に実行。</span></div><b>Multi App</b></article>
+        <article class="assembly-step reveal" data-step><span class="step-number">05</span><div class="step-icon">↗</div><div><p>Learn</p><h3>結果を記録・改善</h3><span>履歴を残し、次の自動化へつなげます。</span></div><b>Result</b></article>
+      </div>
+    </section>
+
+    <section class="use-cases section" id="use-cases" aria-labelledby="cases-title">
+      <div class="section-heading reveal">
+        <p class="section-tag"><span>03</span> Use cases</p>
+        <h2 id="cases-title">業務ごとに変わる。<br><span>思想は変わらない。</span></h2>
+      </div>
+      <div class="case-grid">
+        <article class="glass-card reveal"><span class="card-no">01</span><div class="case-icon">↗</div><h3>営業</h3><p>リード情報を整理し、温度感に合わせて担当へ配分。</p><ul><li>Lead scoring</li><li>CRM sync</li></ul></article>
+        <article class="glass-card reveal"><span class="card-no">02</span><div class="case-icon">◎</div><h3>問い合わせ</h3><p>内容を分類し、返信案を作成。必要なものだけ確認へ。</p><ul><li>AI triage</li><li>Draft reply</li></ul></article>
+        <article class="glass-card reveal"><span class="card-no">03</span><div class="case-icon">¥</div><h3>経理</h3><p>請求データを照合し、例外だけを承認者へ通知。</p><ul><li>Data match</li><li>Exception alert</li></ul></article>
+        <article class="glass-card reveal"><span class="card-no">04</span><div class="case-icon">⌁</div><h3>レポート</h3><p>複数ソースを集約し、決まった形式で自動配信。</p><ul><li>Data merge</li><li>Scheduled report</li></ul></article>
+      </div>
+    </section>
+
+    <section class="results section" id="results" aria-labelledby="results-title">
+      <div class="section-heading centered reveal"><p class="section-tag"><span>04</span> Results</p><h2 id="results-title">時間は、<span>判断と創造へ。</span></h2><p>以下はこのコンセプトを表現するための架空のデモ数値です。</p></div>
+      <div class="metric-grid">
+        <article class="metric reveal"><strong><span data-count="80">80</span><i>%</i></strong><p>Time saved</p><small>反復作業時間を削減</small></article>
+        <article class="metric reveal"><strong><span data-count="24">24</span><i>/7</i></strong><p>Automation</p><small>業務の入口は常に稼働</small></article>
+        <article class="metric reveal"><strong><span data-count="6">6</span><i> tools</i></strong><p>Connected</p><small>分断された道具を接続</small></article>
+      </div>
+      <div class="comparison reveal" data-comparison>
+        <div class="comparison-head"><span>Before</span><span>After NEXUS FLOW</span></div>
+        <div class="compare-track"><div class="before-track"><i></i><i></i><i></i><i></i><i></i><span>12 hours</span></div><div class="after-track"><span>18 min</span><i></i></div></div>
+        <p><span>Manual relay</span><span>Orchestrated flow</span></p>
+      </div>
+    </section>
+
+    <section class="how section" id="how" aria-labelledby="how-title">
+      <div class="section-heading reveal"><p class="section-tag"><span>05</span> How it works</p><h2 id="how-title">導入は、小さく。<br><span>改善は、止めない。</span></h2></div>
+      <ol class="how-list">
+        <li class="reveal"><span>01</span><div><p>Connect</p><h3>今あるツールを接続</h3></div><b>→</b></li>
+        <li class="reveal"><span>02</span><div><p>Design</p><h3>人とAIの役割を設計</h3></div><b>→</b></li>
+        <li class="reveal"><span>03</span><div><p>Automate</p><h3>安全な範囲から自動化</h3></div><b>→</b></li>
+        <li class="reveal"><span>04</span><div><p>Improve</p><h3>履歴を見ながら改善</h3></div><b>↗</b></li>
+      </ol>
+    </section>
+
+    <section class="security section" id="security" aria-labelledby="security-title">
+      <div class="security-visual reveal">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="approval-core"><span>HUMAN<br>APPROVAL</span><i>✓</i><small>Control retained</small></div>
+        <span class="satellite satellite-ai">AI</span><span class="satellite satellite-rule">RULE</span><span class="satellite satellite-log">LOG</span>
+      </div>
+      <div class="security-copy reveal">
+        <p class="section-tag"><span>06</span> Security &amp; control</p>
+        <h2 id="security-title">自動化しても、<br><span>判断は手放さない。</span></h2>
+        <p>すべてをAIに任せるのではなく、金額、例外、公開前の確認など、重要な分岐には人の承認を残せます。</p>
+        <ul class="security-list"><li><i>✓</i><div><strong>Approval gates</strong><span>重要な処理は承認後だけ実行</span></div></li><li><i>⌁</i><div><strong>Audit trail</strong><span>誰が、いつ、何を判断したか記録</span></div></li><li><i>↺</i><div><strong>Fallback ready</strong><span>失敗時は止めて、人へ戻す設計</span></div></li></ul>
+      </div>
+    </section>
+
+    <section class="final-cta section" id="contact" aria-labelledby="cta-title">
+      <div class="converge" aria-hidden="true"><svg viewBox="0 0 900 180" preserveAspectRatio="none"><path d="M0 15 C270 15 280 90 450 90 S630 15 900 15"/><path d="M0 60 C260 60 300 90 450 90 S640 60 900 60"/><path d="M0 120 C260 120 300 90 450 90 S640 120 900 120"/><path d="M0 165 C270 165 280 90 450 90 S630 165 900 165"/></svg><i></i></div>
+      <div class="cta-content reveal">
+        <p class="section-tag"><span>Next</span> One flow, clear control</p>
+        <h2 id="cta-title">Automate the busywork.<br><span>Keep the judgment.</span></h2>
+        <p>仕事を速くするだけではなく、判断する余白をつくる。</p>
+        <a class="button button-primary" href="#top">Back to the flow <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">N</span><span>NEXUS <b>FLOW</b></span></a><p>AI Workflow Automation Platform</p></div>
+    <div class="concept-label"><span>Portfolio #03</span><strong>Concept Work / 自主制作</strong><p>架空のサービスを題材にしたYATZ STUDIOのデザイン・実装作品です。実在する製品、企業、導入実績ではありません。</p></div>
+    <div class="studio-credit"><span>Designed &amp; built by</span><strong>YATZ STUDIO</strong><small>Web Design + AI Automation</small></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

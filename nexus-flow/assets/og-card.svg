@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">NEXUS FLOW</title><desc id="desc">AI Workflow Automation Platform — Concept Work</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050812"/><stop offset=".55" stop-color="#0b1730"/><stop offset="1" stop-color="#17122f"/></linearGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#a5ddff"/><stop offset="1" stop-color="#8d7dff"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#9ed7ff" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#grid)"/>
+  <g fill="#0d1830" stroke="#b8e5ff" stroke-opacity=".4" stroke-width="2">
+    <rect x="120" y="386" width="150" height="76" rx="24"/><rect x="335" y="386" width="150" height="76" rx="24"/><rect x="550" y="386" width="150" height="76" rx="24"/><rect x="765" y="386" width="150" height="76" rx="24"/><rect x="980" y="386" width="100" height="76" rx="24"/>
+  </g>
+  <path d="M270 424H335M485 424H550M700 424H765M915 424H980" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#dff4ff" font-family="Arial, sans-serif" text-anchor="middle" font-size="20"><text x="195" y="432">INPUT</text><text x="410" y="432">AI</text><text x="625" y="432">APPROVAL</text><text x="840" y="432">APPS</text><text x="1030" y="432">RESULT</text></g>
+  <text x="120" y="180" fill="#eaf7ff" font-family="Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="5">NEXUS FLOW</text>
+  <text x="124" y="236" fill="#9fb4d5" font-family="Arial, sans-serif" font-size="25" letter-spacing="3">AI WORKFLOW AUTOMATION PLATFORM</text>
+  <text x="124" y="305" fill="#cbd8ea" font-family="Arial, sans-serif" font-size="30">バラバラな業務を、ひとつの流れへ。</text>
+  <text x="1080" y="92" fill="#a5ddff" font-family="Arial, sans-serif" text-anchor="end" font-size="18" letter-spacing="3">CONCEPT WORK / YATZ STUDIO</text>
+</svg>
